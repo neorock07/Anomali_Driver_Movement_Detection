@@ -8,6 +8,8 @@ Program ini menggunakan konsep sudut `bearing`, untuk menentukan posisi driver b
 1. Hitung sudut bearing antar dua titik (koordinat latitude dan longitude masing2) sesuai urutan pergerakan.
 misal pergerakan : `A-B-C-D`, maka hitung bearing point: `A-B`, `B-C`, `C-D` dst.
 
+![alt text](image-1.png)
+
 2. Berikan besar sudut deviasi, misal 120°. Artinya dari sudut pandang driver arah hadap merupakan titik 0°, sehingga batas deviasi adalah 60° ke-kiri dan 60° ke-kanan sisi driver.
 
 3. Hitung range sudut deviasi tersebut terhadap arah Utara (sebagai arah 0° sebagai pengamat), misal: posisi driver terhadap utara 60°, dengan besar deviasi ditentukan 120°, maka untuk menghitung letak sudut deviasi tersebut terhadap arah utara dengan :
