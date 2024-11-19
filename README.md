@@ -17,10 +17,10 @@ misal pergerakan : `A-B-C-D`, maka hitung bearing point: `A-B`, `B-C`, `C-D` dst
 
 keterangan:
 
-Δmin = letak derajat sudut deviasi awal (minimum)
-Δmax = letak derajat sudut deviasi akhir (maximum)
-α = sudut bearing
-β = sudut deviasi 
+- Δmin = letak derajat sudut deviasi awal (minimum)
+- Δmax = letak derajat sudut deviasi akhir (maximum)
+- α = sudut bearing
+- β = sudut deviasi 
 
 
 4. Bandingkan besar sudut bearing antar titik yang terbentuk terhadap rentang deviasi terhadap utara [minimum, maximum]. jika kurang atau melebihi range tersebut maka dianggap anomali. 
